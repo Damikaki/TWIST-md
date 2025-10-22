@@ -1,17 +1,17 @@
 const config = require('../settings')
 const l = console.log
-const { lite, commands } = require('../lite')
+const { Twist-md, commands } = require('../Twist-md')
 const dl = require('@bochilteam/scraper')  
 const ytdl = require('yt-search');
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
-lite({
+Twist-md({
     pattern: "yts",
     alias: ["ytsearch"],
     use: '.yts malvinxd',
     react: "🔎",
-    desc: "Search and get details from youtube.",
+    desc: "Successful Search and get details from youtube🥷.",
     category: "download",
     filename: __filename
 
@@ -19,7 +19,7 @@ lite({
 
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if (!q) return reply('*Please give me words to search*')
+if (!q) return reply('*Please give me the exact words to search🥷*')
 try {
 let yts = require("yt-search")
 var arama = await yts(q);

@@ -1,6 +1,6 @@
-name: lite-xd
+name: Twist-md
 services:
-  - name: lite-xd-service
+  - name: Twist-md
     type: web
     ports:
       - 5000

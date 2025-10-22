@@ -1,4 +1,4 @@
-const { lite ,commands } = require('../lite');
+const { Twist-md,commands } = require('../Twist-md');
 const { exec } = require('child_process');
 const config = require('../settings');
 const {sleep} = require('../lib/functions')
@@ -11,7 +11,7 @@ lite({
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
-    if (!isOwner) return reply("❌ You are not the owner!");
+    if (!isOwner) return reply("❌ You are not the owner umbwa sana😎");
     reply("🛑 Shutting down...").then(() => process.exit());
 });
 // 2. Broadcast Message to All Groups
@@ -41,7 +41,7 @@ lite({
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, quoted, reply }) => {
-    if (!isOwner) return reply("❌ You are not the owner!");
+    if (!isOwner) return reply("❌ You are not the owner umbwa sana😎");
     if (!quoted || !quoted.message.imageMessage) return reply("❌ Please reply to an image.");
     try {
         const media = await conn.downloadMediaMessage(quoted);

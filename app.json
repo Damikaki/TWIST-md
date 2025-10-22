@@ -1,21 +1,21 @@
 {
-  "name": "LITE-XD",
-  "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+  "name": "Twist-md",
+  "description": "Javascript WhatsApp bot made by Dave🔥",
   "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN-XD","LITE-XD"],
+  "keywords": ["Dave","Twist-md"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'lite~'",
+      "description": "Must Start with 'Twist~'",
       "required": true,
       "value": ""
     },
       "BOT_NAME": {
         "description": "write here your bot name.",
         "required": true,
-        "value": "ʟɪᴛᴇ-xᴅ"      
+        "value": "Twist-md"      
     },  
     "MODE": {
       "description": "Set private/public/inbox/groups",
@@ -32,12 +32,12 @@
     "OWNER_NAME": {
       "description": "Put Owner Name Here",
       "required": true,
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+      "value": "Dave"
     },
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "263780166288"
+      "value": "254116558872"
     },
     
     "PRESENCE": {

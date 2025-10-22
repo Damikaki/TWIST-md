@@ -1,16 +1,16 @@
-const { lite } = require("../lite");  
+const { Twist-md } = require("../Twist-md");  
 const { sleep } = require("../lib/functions");  
 
-lite({  
+Twist-md({  
     pattern: "restart",  
-    desc: "Restart Lite xd",  
+    desc: "Restart Twist-md",  
     category: "owner",  
     filename: __filename  
 },  
 async (conn, mek, m, { reply, isCreator }) => {  
     try {  
         if (!isCreator) {  
-            return reply("Only the bot owner can use this command.");  
+            return reply("Only the bot owner can use this command umbwa sana😎");  
         }  
 
         const { exec } = require("child_process");  

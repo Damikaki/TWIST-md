@@ -1,7 +1,7 @@
-const { lite } = require('../lite');
+const { Twist-md } = require('../Twist-md');
 const { getAnti, setAnti } = require('../data/antidel');
 
-lite({
+Twist({
     pattern: "antidelete",
     alias: ['antidel', 'del'],
     desc: "Toggle anti-delete feature",
@@ -9,7 +9,7 @@ lite({
     filename: __filename
 },
 async (conn, mek, m, { from, reply, text, isCreator }) => {
-    if (!isCreator) return reply('This command is only for the bot owner');
+    if (!isCreator) return reply('This command is only for the bot owner🥷');
     
     try {
         const currentStatus = await getAnti();
@@ -33,6 +33,6 @@ async (conn, mek, m, { from, reply, text, isCreator }) => {
         }
     } catch (e) {
         console.error("Error in antidelete command:", e);
-        return reply("An error occurred while processing your request.");
+        return reply("sorry an error occurred while processing your request😔.");
     }
 });

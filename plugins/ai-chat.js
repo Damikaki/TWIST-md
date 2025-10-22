@@ -1,7 +1,7 @@
-const { lite } = require('../lite');
+const { Twist-md} = require('../Twiwt-md');
 const axios = require('axios');
 
-lite({
+Twist({
     pattern: "ai",
     alias: ["bot", "dj", "gpt", "gpt4", "bing"],
     desc: "Chat with an AI model",
@@ -18,7 +18,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 
         if (!data || !data.message) {
             await react("❌");
-            return reply("AI failed to respond. Please try again later.");
+            return reply("sorry ai failed to respond. Please try again later❣️.");
         }
 
         await reply(`🤖 *AI Response:*\n\n${data.message}`);
@@ -26,7 +26,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     } catch (e) {
         console.error("Error in AI command:", e);
         await react("❌");
-        reply("An error occurred while communicating with the AI.");
+        reply("sorry an error occurred while communicating with the AI🫂.");
     }
 });
 
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     }
 });
 
-lite({
+Twist({
     pattern: "deepseek",
     alias: ["deep", "seekai"],
     desc: "Chat with DeepSeek AI",
@@ -69,7 +69,7 @@ lite({
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
-        if (!q) return reply("Please provide a message for DeepSeek AI.\nExample: `.deepseek Hello`");
+        if (!q) return reply("Please provide a message for DeepSeek AI.\nExample: `.yooh deepseek`");
 
         const apiUrl = `https://api.ryzendesu.vip/api/ai/deepseek?text=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
@@ -84,7 +84,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     } catch (e) {
         console.error("Error in DeepSeek AI command:", e);
         await react("❌");
-        reply("An error occurred while communicating with DeepSeek AI.");
+        reply("Sorry An error occurred while communicating with DeepSeek AI🫂.");
     }
 });
 

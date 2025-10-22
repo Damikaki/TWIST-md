@@ -1,6 +1,6 @@
-const { lite } = require("../lite");
+const { Twist-md } = require("../Twist-md");
 
-lite({
+Twist({
   pattern: "vv",
   alias: ["viewonce", 'retrive'],
   react: '🐳',
@@ -17,7 +17,7 @@ lite({
 
     if (!match.quoted) {
       return await client.sendMessage(from, {
-        text: "*🍁 Please reply to a view once message!*"
+        text: "*🍁 Please reply to a view once message🔥🎇!*"
       }, { quoted: message });
     }
 
@@ -50,7 +50,7 @@ lite({
         break;
       default:
         return await client.sendMessage(from, {
-          text: "❌ Only image, video, and audio messages are supported"
+          text: "sorry Only image, video, and audio messages are supported🌚"
         }, { quoted: message });
     }
 

@@ -1,14 +1,14 @@
 
 
 {
-  "name": "lite-xd",
+  "name": "Twist-md",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By Dave🔥",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name lite",
+    "start": "pm2 start index.js --deep-monitoring --attach --name Twist",
     "stop": "pm2 stop lite",
-    "restart": "pm2 restart lite"
+    "restart": "pm2 restart Twist"
   },
   "dependencies": {
        "@whiskeysockets/baileys": "npm:baileys-pro@latest",

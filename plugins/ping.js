@@ -1,7 +1,7 @@
 const config = require('../settings');
-const { lite, commands } = require('../lite');
+const { Twist-md, commands } = require('../Twist-md');
 
-lite({
+Twist({
     pattern: "ping",
     alias: ["speed","pong"],use: '.ping',
     desc: "Check bot's response time.",
@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: "ᴍᴀʟᴠɪɴ ᴋɪɴɢ ᴛᴇᴄʜ",
+                    newsletterName: "Dave",
                     serverMessageId: 143
                 }
             }
@@ -54,5 +54,5 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
     }
 });
 
-// created by malvin king
+// created by Dave inspired by Taylor
 

@@ -1,4 +1,4 @@
-const { lite } = require('../lite');
+const { Twist-md} = require('../Twist-md');
 const os = require('os');
 const { runtime } = require('../lib/functions');
 const config = require('../settings');
@@ -40,7 +40,7 @@ lite({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: 'Malvin Tech',
+                    newsletterName: 'Dave',
                     serverMessageId: 143
                 }
             }

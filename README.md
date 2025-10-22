@@ -1,12 +1,12 @@
-# Lite Xd – Bot Base Script
+# Twist-md Bot Base Script
 
-**Repository:** [https://github.com/XdKing2/LITE-XD](https://github.com/XdKing2/LITE-XD)
+**Repository:** [https://github.com/Damikaki/Twist-md](https://github.com/Damikaki/Twist-md)
 
 ---
 
 ## 🤖 What is This?
 
-This is the **bot base script**, created by Malvin King.  
+This is the **bot base script**, created by Dave a dev inspired by Trashcore devs ,Malvin and Casper  
 It serves as a foundation for building bots that handle session IDs and automate sharing links.
 
 The **session ID link** below is provided as a reference and example to use with the bot:
@@ -17,7 +17,7 @@ The **session ID link** below is provided as a reference and example to use with
 ---
 
 SESSION_ID REPO BASE
-https://github.com/XdKing2/malvin-pair 
+https://github.com/Damikaki/Twist-md
 
 ## 🚀 Getting Started
 

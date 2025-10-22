@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const config = require('../settings');
-const { lite, commands } = require('../lite');
+const { Twist-md, commands } = require('../Twist-md');
 const axios = require('axios');
 
 lite({
@@ -87,7 +87,7 @@ ${menu.fun || '│ (No commands found)'}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363402507750390@newsletter',
-                        newsletterName: 'Lite XD',
+                        newsletterName: 'Twist-md',
                         serverMessageId: 143
                     }
                 }

@@ -1,7 +1,7 @@
 # 🚀 Twist-DK: The Ultimate WhatsApp Bot
 
 <p align="center">
-  <img src="https://files.catbox.moe/fpase8.jpg" alt="FLASH-MD-V2 Banner" width="600"/>
+  <img src="https://files.catbox.moe/7tolz0.jpg" alt="Twist-DK" width="600"/>
 </p>
 
 ***Twist-DK*** is a powerful, fully customizable WhatsApp bot built with **Node.js** and the **WhatsApp Web API**. Automate tasks, manage groups, and enhance your WhatsApp experience with ease.

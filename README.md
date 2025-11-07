@@ -1,24 +1,81 @@
-# Twist-md Bot Base Script
+# 🚀 Twist-DK: The Ultimate WhatsApp Bot
 
-**Repository:** [https://github.com/Damikaki/Twist-md](https://github.com/Damikaki/Twist-md)
+<p align="center">
+  <img src="https://files.catbox.moe/fpase8.jpg" alt="FLASH-MD-V2 Banner" width="600"/>
+</p>
+
+***Twist-DK*** is a powerful, fully customizable WhatsApp bot built with **Node.js** and the **WhatsApp Web API**. Automate tasks, manage groups, and enhance your WhatsApp experience with ease.
+## CONNECT TO WHATSAPP:
+- **STAR REPO AND THEN** [FORK IT](https://github.com/Damikaki/Twist-DK/fork) 
+- **GET SESSION ID USING** [Twist-DK SESSIONS](https://fixed-sessions.onrender.com) 
+
+
+---
+### 🚀 Deployment Platforms:
+
+| **Platform**        | **Instructions** |
+|---------------------|------------------|
+| **Heroku**          | **Heroku deployment guide**:<br>1. Create an account on [Heroku](https://signup.heroku.com)<br>2. Add a credit card (required for deployment).<br>3. Use [this tool](https://Damikaki.vercel.app/) to deploy Twist-DK instantly. |
+| **Render**          | 1. Sign up at [Render](https://render.com) & link GitHub.<br>2. Set Build Command as `npm install` & Start Command as `npm start`.<br>3. Deploy without session env first.<br>4. After first deploy, add `SESSION`, `YOUR_NUMBER`, and `YOUR_LID` to `.env`.<br>5. To keep it 24/7, add your Render app link to `.env`. |
+| **Koyeb**           | 1. Sign up at [Koyeb](https://www.koyeb.com) & link GitHub.<br>2. Set up environment variables: `YOUR_NUMBER`, `YOUR_LID`, `SESSION`.<br>3. Deploy using Node.js auto-detect. |
+| **Railway**         | 1. Sign up at [Railway](https://railway.app) & link GitHub.<br>2. Set Build Command as `npm install` & Start Command as `npm start`.<br>3. Add environment variables: `YOUR_NUMBER`, `YOUR_LID`, `SESSION`.<br>4. Deploy & your bot is live! |
+| **Bot-Hosting.net** | 1. **[DOWNLOAD THE ZIP HERE](https://github.com/Damikaki/Twist-DK/archive/refs/heads/main.zip)**.<br>2. Go to [Bot-Hosting.net](https://bot-hosting.net) and create a new Node.js app.<br>3. Upload and extract the ZIP contents.<br>4. Add environment variables: `SESSION`, `YOUR_NUMBER`, `YOUR_LID`.<br>5. Start your bot from the panel. |
+| **Optiklink.com**   | 1. **[DOWNLOAD THE ZIP HERE](https://github.com/Damikaki/Twist-DK/archive/refs/heads/main.zip)**.<br>2. Go to [Optiklink.com](https://optiklink.com) and create a Node.js project.<br>3. Upload and extract the ZIP.<br>4. Set `.env` values: `SESSION`, `YOUR_NUMBER`, `YOUR_LID`.<br>5. Start the bot via terminal or web console. |
+| **Termux**          | **Termux Setup Instructions**:<br>1. Install [Termux](https://f-droid.org/packages/com.termux/) on Android.<br>2. Clone the repo and navigate into the folder.<br>3. Install dependencies and run the bot with the commands below. |
+
+### 📚 TERMUX Setup Instructions:
+
+#### 1. Clone the repository:
+
+```bash
+git clone https://github.com/Damikaki/Twist-DK.git
+```
+```bash
+cd Twist-DK
+```
+```bash
+npm install
+```
+```bash
+npm start
+
+``` 
+---
+
+### 🙏 Credits & Licensing
+
+| **Contributor** | **Role** |
+|------------------|----------|
+| [Baileys](https://github.com/WhiskeySockets/Baileys) | Core WhatsApp Web API Library |
+| [Damikaki](https://github.com/Damikaki) | Developer & Maintainer of Twist-DK |
 
 ---
 
-## 🤖 What is This?
+### ⚠️ Warning
 
-This is the **bot base script**, created by Dave a dev inspired by Trashcore devs ,Malvin and Casper  
-It serves as a foundation for building bots that handle session IDs and automate sharing links.
-
-The **session ID link** below is provided as a reference and example to use with the bot:
-
-**Session Link Reference:**  
-[https://lite-pair.onrender.com/pair](https://lite-pair.onrender.com/pair)
+- **Do NOT copy, modify, or redistribute** this bot without **proper permission**.
+- Twist-DK is an **open-source project**, but it is protected by its license and community standards.
+- Give **proper credits** to the original authors and libraries used.
+- Any misuse or abuse of this bot is **strictly prohibited**.
 
 ---
+***
+### HELP :
+**IF you need any help**
+- [**CLICK HERE**](https://wa.me/254116558872?text=Hello!%20I'm%20interested%20in%20Twist-DK%20Bot.)
+- [**Click here to send suggestions or queries**]() 
 
-SESSION_ID REPO BASE
-https://github.com/Damikaki/Twist-md
 
-## 🚀 Getting Started
+***
 
+### ⭐ Support This Project
 
+| **Action** | **Purpose** |
+|------------|-------------|
+| [Use This Template](https://github.com/franceking1/FLASH-MD-V2/generate) | Create your own working bot easily. Eg, for hosting on render ‼️ |
+| [Fork This Repo](https://github.com/Damikaki/Twist-DK/fork) | Show your support and boost visibility |
+
+> Every ⭐ star and fork makes a big difference — thank you for supporting **Twist-DK**!
+
+> Powered by Dave
+---
